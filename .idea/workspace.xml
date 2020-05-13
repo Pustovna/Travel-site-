@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Curves 4 copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Curves 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Layer 49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Layer 50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Lock locked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/Rectangle 53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/journal_drop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/journal_forest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/journal_hard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/journal_leaf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +38,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Mountains" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -118,6 +133,13 @@
       <workItem from="1589366314750" duration="1791000" />
       <workItem from="1589368257038" duration="623000" />
       <workItem from="1589379425136" duration="919000" />
+      <workItem from="1589385829714" duration="86000" />
+      <workItem from="1589396277835" duration="407000" />
+      <workItem from="1589396976204" duration="1655000" />
+      <workItem from="1589398830424" duration="1461000" />
+      <workItem from="1589400460068" duration="170000" />
+      <workItem from="1589400656413" duration="1795000" />
+      <workItem from="1589402487984" duration="1362000" />
     </task>
     <servers />
   </component>
@@ -129,26 +151,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1588884416078" />
-    <state x="92" y="305" width="731" height="666" key="EditFileWatcherDialog" timestamp="1589190404840">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589401424313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="305" width="731" height="666" key="EditFileWatcherDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190404840" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589401424313" />
+    <state x="935" y="186" width="731" height="666" key="EditFileWatcherDialog" timestamp="1589396655673">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="935" y="186" width="731" height="666" key="EditFileWatcherDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589396655673" />
     <state x="92" y="305" width="731" height="479" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588870267316" />
     <state x="192" y="400" key="EnvironmentVariablesDialog" timestamp="1589190377516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="192" y="400" key="EnvironmentVariablesDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190377516" />
-    <state x="1203" y="275" key="FileChooserDialogImpl" timestamp="1589356920988">
+    <state x="1203" y="275" key="FileChooserDialogImpl" timestamp="1589396654060">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1203" y="275" key="FileChooserDialogImpl/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190402825" />
+    <state x="1203" y="275" key="FileChooserDialogImpl/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589396654060" />
     <state x="856" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588883171642" />
     <state x="1203" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589356920988" />
-    <state x="-1038" y="422" key="SettingsEditor" timestamp="1589191049598">
-      <screen x="-1366" y="409" width="1366" height="728" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1589396657315">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1038" y="422" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@-1366.409.1366.728" timestamp="1589191049598" />
-    <state x="461" y="162" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190606317" />
+    <state x="461" y="162" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589396657315" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588672641997" />
     <state x="50" y="297" key="scopes" timestamp="1589190065344">
       <screen x="0" y="0" width="1920" height="1040" />
