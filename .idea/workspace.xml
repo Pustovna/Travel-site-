@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1bRZk5NsznIJIZszTA7qrlpG9qn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Mountains" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Nastya\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="" />
+      <created>1588597007031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588597007031</updated>
+      <workItem from="1588597009101" duration="1670000" />
+      <workItem from="1588612068506" duration="1216000" />
+      <workItem from="1588617392863" duration="1788000" />
+      <workItem from="1588619701796" duration="771000" />
+      <workItem from="1588672000334" duration="658000" />
+      <workItem from="1588672671797" duration="1065000" />
+      <workItem from="1588673762676" duration="1686000" />
+      <workItem from="1588676141589" duration="1568000" />
+      <workItem from="1588677998726" duration="1682000" />
+      <workItem from="1588704046617" duration="1893000" />
+      <workItem from="1588858407280" duration="1793000" />
+      <workItem from="1588860276890" duration="1790000" />
+      <workItem from="1588862092817" duration="1789000" />
+      <workItem from="1588863904538" duration="1790000" />
+      <workItem from="1588865944996" duration="1791000" />
+      <workItem from="1588867760985" duration="1794000" />
+      <workItem from="1588869585512" duration="1789000" />
+      <workItem from="1588871467977" duration="539000" />
+      <workItem from="1588875862869" duration="795000" />
+      <workItem from="1588876680413" duration="1792000" />
+      <workItem from="1588878496554" duration="1819000" />
+      <workItem from="1588880341789" duration="1787000" />
+      <workItem from="1588882257026" duration="1787000" />
+      <workItem from="1588884073969" duration="1076000" />
+      <workItem from="1588885245104" duration="855000" />
+      <workItem from="1588920805304" duration="148000" />
+      <workItem from="1588921048738" duration="1548000" />
+      <workItem from="1588922623838" duration="1808000" />
+      <workItem from="1588925233895" duration="1797000" />
+      <workItem from="1588927074526" duration="1788000" />
+      <workItem from="1588929051448" duration="1845000" />
+      <workItem from="1588930940852" duration="1784000" />
+      <workItem from="1588932750501" duration="35000" />
+      <workItem from="1588948061115" duration="1154000" />
+      <workItem from="1589189884152" duration="1779000" />
+      <workItem from="1589191699620" duration="1666000" />
+      <workItem from="1589193579051" duration="1786000" />
+      <workItem from="1589195389707" duration="1841000" />
+      <workItem from="1589197258172" duration="1789000" />
+      <workItem from="1589199070027" duration="1807000" />
+      <workItem from="1589200898383" duration="1790000" />
+      <workItem from="1589202851935" duration="1802000" />
+      <workItem from="1589204674598" duration="1790000" />
+      <workItem from="1589206496293" duration="1788000" />
+      <workItem from="1589208325381" duration="1271000" />
+      <workItem from="1589211947762" duration="1779000" />
+      <workItem from="1589213754294" duration="1646000" />
+      <workItem from="1589215573831" duration="2141000" />
+      <workItem from="1589218844937" duration="1719000" />
+      <workItem from="1589220713432" duration="1791000" />
+      <workItem from="1589222541377" duration="2215000" />
+      <workItem from="1589228741249" duration="1768000" />
+      <workItem from="1589230697014" duration="1787000" />
+      <workItem from="1589232508412" duration="1322000" />
+      <workItem from="1589271758877" duration="149000" />
+      <workItem from="1589282334222" duration="600000" />
+      <workItem from="1589290226644" duration="1025000" />
+      <workItem from="1589292159140" duration="1829000" />
+      <workItem from="1589294258252" duration="826000" />
+      <workItem from="1589296072824" duration="1788000" />
+      <workItem from="1589297891272" duration="1235000" />
+      <workItem from="1589302109847" duration="1722000" />
+      <workItem from="1589303927986" duration="1273000" />
+      <workItem from="1589313442878" duration="990000" />
+      <workItem from="1589315817719" duration="1869000" />
+      <workItem from="1589317737543" duration="1262000" />
+      <workItem from="1589354012131" duration="1697000" />
+      <workItem from="1589355980218" duration="1541000" />
+      <workItem from="1589357814512" duration="1788000" />
+      <workItem from="1589359683861" duration="1636000" />
+      <workItem from="1589361406046" duration="1200000" />
+      <workItem from="1589364474993" duration="1790000" />
+      <workItem from="1589366314750" duration="1791000" />
+      <workItem from="1589368257038" duration="623000" />
+      <workItem from="1589379425136" duration="919000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Inspections" timestamp="1588884416078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1588884416078" />
+    <state x="92" y="305" width="731" height="666" key="EditFileWatcherDialog" timestamp="1589190404840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="305" width="731" height="666" key="EditFileWatcherDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190404840" />
+    <state x="92" y="305" width="731" height="479" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588870267316" />
+    <state x="192" y="400" key="EnvironmentVariablesDialog" timestamp="1589190377516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="192" y="400" key="EnvironmentVariablesDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190377516" />
+    <state x="1203" y="275" key="FileChooserDialogImpl" timestamp="1589356920988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1203" y="275" key="FileChooserDialogImpl/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190402825" />
+    <state x="856" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588883171642" />
+    <state x="1203" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589356920988" />
+    <state x="-1038" y="422" key="SettingsEditor" timestamp="1589191049598">
+      <screen x="-1366" y="409" width="1366" height="728" />
+    </state>
+    <state x="-1038" y="422" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@-1366.409.1366.728" timestamp="1589191049598" />
+    <state x="461" y="162" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190606317" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588672641997" />
+    <state x="50" y="297" key="scopes" timestamp="1589190065344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="50" y="297" key="scopes/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190065344" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1589233829783">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1020" y="458" width="672" height="678" key="search.everywhere.popup/-1366.409.1366.728/0.0.1920.1040@-1366.409.1366.728" timestamp="1589213705075" />
+    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589233829783" />
+  </component>
+</project>

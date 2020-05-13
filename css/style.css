@@ -1,0 +1,178 @@
+@font-face {
+  font-family: "Bringin";
+  src: url("../fonts/bringin.otf");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: "Raleway-Black";
+  src: url("../fonts/Raleway-Black.ttf");
+}
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+body {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #949494;
+}
+
+nav a {
+  color: #9daeb6;
+  font-family: OpenSans-Bold;
+  padding-bottom: 10px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #36aeea;
+  text-decoration: none;
+  color: #9daeb6;
+}
+
+nav ul {
+  margin: 0px;
+}
+
+.top-block {
+  background: url("../image/bg-top-block.jpg") no-repeat;
+  background-size: cover;
+  padding: 0px 0px;
+}
+.top-block_logo {
+  font-family: Bringin;
+  font-size: 29px;
+  color: #95a5ad;
+  padding: 0px;
+}
+.top-block_logo_b {
+  color: #36aeea;
+}
+.top-block_button {
+  padding: 0px;
+}
+.top-block_button button {
+  border: 4px solid #36aeea;
+  padding: 10px 43px;
+  font-size: 12px;
+  font-family: Raleway-Black;
+  color: #36aeea;
+}
+.top-block_button button:hover {
+  background: #36aeea;
+  border: 4px solid #36aeea;
+}
+.top-block_header {
+  background: rgba(255, 255, 255, 0.2);
+  padding-top: 22px;
+  padding-bottom: 20px;
+}
+.top-block_col {
+  margin: 134px 0px 106px 0px;
+  border: 3px solid white;
+}
+.top-block_box {
+  margin: 40px 25px;
+}
+.top-block_box h1:nth-child(1) {
+  margin-bottom: 0px;
+  font-family: OpenSans-Bold;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 50px;
+}
+.top-block_box h1:nth-child(2) {
+  font-family: Bringin;
+  color: #56c7ff;
+  margin-top: -30px;
+  font-size: 66px;
+}
+.top-block_box p {
+  color: #d5dadd;
+  font-family: OpenSans-Regular;
+  padding: 18px 0px;
+  font-size: 18px;
+}
+.top-block_box .btn {
+  background: #36aeea;
+  border: 4px solid #36aeea;
+  color: white;
+  font-family: Raleway-Regular;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  width: 253px;
+  height: 60px;
+}
+.top-block_man {
+  z-index: 1;
+  left: 935px;
+  top: 140px;
+}
+
+.about-us {
+  background: #f6f4f4;
+}
+.about-us_cont {
+  padding: 0px 0px;
+}
+.about-us_box h2 {
+  font-family: OpenSans-Bold;
+  color: #2c2e37;
+  text-transform: uppercase;
+}
+.about-us_box span {
+  font-family: OpenSans-Regular;
+  font-size: 14px;
+}
+.about-us_image {
+  margin-top: -36px;
+  padding-left: 180px;
+}
+.about-us_image_blog_1 {
+  margin-top: -257px;
+  margin-left: -90px;
+  z-index: 2;
+}
+.about-us_image_blog_2 {
+  z-index: 2;
+}
+.about-us_map {
+  z-index: 0;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 22px;
+}
+.about-us_col {
+  padding-bottom: 40px;
+}
+.about-us_col button {
+  background: #36aeea;
+  color: white;
+  width: 130px;
+  height: 40px;
+  text-transform: uppercase;
+  font-family: OpenSans-Bold;
+  margin-top: 30px;
+  font-size: 12px;
+}
+.about-us_col button:hover {
+  color: white;
+}
+
+.journal {
+  background: white;
+}
+.journal_wave {
+  margin-top: 72px;
+  margin-bottom: 33px;
+}
+
+/*# sourceMappingURL=style.css.map */
