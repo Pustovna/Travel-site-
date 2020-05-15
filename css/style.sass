@@ -132,6 +132,7 @@ nav ul
     margin-top: 22px
   &_col
     padding-bottom: 40px
+    padding-left: 15px
   &_col button
     background: $Blue
     color: white
@@ -160,9 +161,119 @@ nav ul
     height: 380px
   &_shadow
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.1)
+    margin-bottom: 90px
   &_img img:nth-child(2)
     position: absolute
     top: 39%
     left: 39%
+  &_img_triangle
+    width: 0
+    height: 0
+    position: absolute
+    &_lake
+      left: 50px
+      top: 97.5%
+      border-left: 10px solid transparent
+      border-right: 10px solid transparent
+      border-bottom: 10px solid white
+    &_forest
+      right: 97.5%
+      top: 50px
+      border-bottom: 10px solid transparent
+      border-top: 10px solid transparent
+      border-left: 10px solid white
+    &_mauntains
+      left: 97.5%
+      top: 50px
+      border-bottom: 10px solid transparent
+      border-top: 10px solid transparent
+      border-right: 10px solid white
   & .card-body
-    padding: 45px 30px
+    padding: 12% 8%
+  & .card-link
+    font-size: 11px
+    text-transform: uppercase
+    font-family: OpenSans-Bold
+    color: #16b5ef
+  & .card-title
+    margin-top: 14%
+    margin-bottom: 7.8%
+    font-size: 16px
+    font-family: OpenSans-Bold
+    color: #212121
+    text-transform: uppercase
+    letter-spacing: 2px
+  & .card-text
+    font-family: OpenSans-Regular
+    font-size: 14px
+    margin-bottom: 0px
+  & .card-number
+    margin-top: 14%
+    color: black
+    font-family: "Times New Roman"
+    font-size: 14px
+
+.do_you
+  background-image: url("../image/form/back.png")
+  height: 652px
+  &_pine1
+    margin-top: 238px
+    z-index: 1
+    & img
+      margin-left: -20px
+  &_pine2
+    margin-top: 30px
+    z-index: 2
+    & img
+      margin-left: -70px
+  &_text
+    margin-top: 145px
+    & img
+      margin-bottom: 37px
+    & h2
+      font-family: OpenSans-Bold
+      color: black
+      text-transform: uppercase
+      font-size: 20px
+      margin-bottom: 30px
+    & span
+      font-family: OpenSans-Regular
+      font-size: 16px
+  &_form
+    background: white
+    border-radius: 3px
+    margin-top: 30px
+    &_input
+      width: 244px
+      padding: 5px 0px 5px 20px
+    &_phone
+      border-left: 2px solid #ebebeb
+    & input
+      border: none
+      font-size: 16px
+      font-family: OpenSans-Regular
+      width: 100%
+      outline: none
+    & button
+      height: 57px
+      background: $Blue
+      margin: 3px 3px 3px 0px
+      width: 255px
+      color: white
+      text-transform: uppercase
+      font-family: OpenSans-Bold
+      font-size: 16px
+      &:hover
+        color: white
+  &_lock
+    font-family: OpenSans-Regular
+    font-size: 14px
+    color: $Blue
+    width: 345px
+    height: 25px
+    background: black
+    margin-top: 10px
+    margin-left: 3px
+    & img
+      margin-left: -3px
+      margin-right: 12px
