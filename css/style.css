@@ -518,6 +518,33 @@ nav ul {
   .work_border {
     display: none;
   }
+
+  .work {
+    height: 100%;
+  }
+}
+.travel_wave {
+  margin-bottom: 10px;
+}
+.travel h1 {
+  font-family: OpenSans-Bold;
+  font-size: 30px;
+  color: #2c2e37;
+  padding-top: 10px;
+}
+.travel_map {
+  position: absolute;
+  margin-left: -5%;
+  width: 67vw;
+}
+.travel_con {
+  margin-top: 96px;
+}
+
+.travel-back {
+  background-image: url("../image/travel/back_tavel.png");
+  height: 802px;
+  margin-top: -330px;
 }
 
 /*# sourceMappingURL=style.css.map */
