@@ -18,6 +18,13 @@
   font-family: "OpenSans-Regular"
   src: url("../fonts/OpenSans-Regular.ttf")
 
+@font-face
+  font-family: "Roboto Black"
+  src: url("../fonts/Roboto-Black.ttf")
+
+@font-face
+  font-family: "Roboto Light"
+  src: url("../fonts/Roboto-Light.ttf")
 
 $Blue: #36aeea
 $Gray: #95a5ad
@@ -103,7 +110,9 @@ nav ul
     z-index: 1
     left: 935px
     top: 140px
-
+@media (max-width: 1420px)
+  .top-block_man
+    display: none
 .about-us
   background: #f6f4f4
   &_cont
@@ -144,7 +153,6 @@ nav ul
     font-size: 12px
   &_col button:hover
     color: white
-
 
 .journal
   background: white
@@ -277,3 +285,141 @@ nav ul
     & img
       margin-left: -3px
       margin-right: 12px
+
+@media (max-width: 1200px)
+  .do_you_form
+    background: #f6f4f4
+  .do_you_form_button
+    width: 100%
+  .do_you_form_input
+    width: 100%
+    padding: 0px
+    margin-bottom: 5px
+    & input
+      padding: 5px
+  .do_you_text
+    text-align: center
+    margin-top: 30px
+  .do_you_lock
+    width: 100%
+    margin-top: 10px
+  .do_you_form_phone
+    border-left: none
+
+.work
+  height: 700px
+  & h5
+    margin-top: 30px
+    font-family: Roboto Black
+    font-size: 18px
+    color: #2c2e37
+  & span
+    font-family: Roboto Light
+    font-size: 16px
+  &_wave
+    margin-bottom: 30px
+    margin-top: 70px
+  & h1
+    font-family: OpenSans-Bold
+    font-size: 30px
+    color: black
+  &_border
+    height: 11.43%
+    width: 45%
+    border: 3px solid black
+    border-radius: 10px
+    margin-top: 28px
+    &_circle
+      width: 23px
+      height: 23px
+      background: #f4d03f
+      -moz-border-radius: 50px
+      -webkit-border-radius: 50px
+      border-radius: 50px
+      border: 3px solid white
+      margin-top: 10%
+      margin-bottom: -13px
+      margin-left: 50%
+  &_point_grey
+    position: absolute
+    width: 30px
+    border-bottom: 2px dotted #f0f3f6
+    margin-left: -96px
+    margin-top: 105px
+    & img
+      margin-left: -20px
+  &_point_blue
+    position: absolute
+    width: 30px
+    border-bottom: 2px dotted #b5cddf
+    margin-left: 65px
+    margin-top: 79px
+    & img
+      margin-left: 6px
+  &_card
+    &_circle
+      width: 180px
+      height: 180px
+      background: #f0f3f6
+      -moz-border-radius: 90px
+      -webkit-border-radius: 90px
+      border-radius: 90px
+      z-index: 1
+      &_hexagon
+        margin-top: 25px
+      &_icon
+        position: absolute
+        margin-top: 67px
+        margin-left: -78px
+    &_des
+      margin-top: -90px
+    &_border
+      height: 166px
+      width: 79%
+      margin-top: -10px
+      &_con
+        border-top: 2px dashed #f0f3f6
+        border-left: 2px dashed #f0f3f6
+        width: 290px
+        border-bottom: 2px dotted #f0f3f6
+        &_grey
+          border-bottom-color: #b5cddf
+        &_blue
+          border-right: 2px dashed #f0f3f6
+          border-bottom-color: #b5cddf
+      &_circle
+        width: 48px
+        height: 48px
+        border: 3px solid $Blue
+        border-radius: 24px
+        background: white
+        margin-left: -24px
+        margin-top: -24px
+        padding-top: 12px
+        &4
+          margin-right: -30px
+      &_arrow
+        width: 11px
+        height: 2px
+        background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(214,224,231,1) 100%)
+        margin-top: 47.5%
+        margin-left: 50%
+        transform: rotate(45deg)
+        &2
+          width: 11px
+          height: 2px
+          background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(214,224,231,1) 100%)
+          margin-top: 1.5%
+          margin-left: 50%
+          transform: rotate(-45deg)
+        &_blue
+          background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(103,163,204,1) 100%)
+
+@media (max-width: 560px)
+  .work_card_des
+    margin-top: 20px
+  .work_border
+    display: none
+
+
+
