@@ -590,4 +590,30 @@ nav ul {
   margin-top: -330px;
 }
 
+.gallery_wave {
+  margin-top: 70px;
+  margin-bottom: 35px;
+}
+.gallery h1 {
+  font-family: OpenSans-Bold, serif;
+  font-size: 30px;
+  color: #2c2e37;
+}
+.gallery img {
+  padding-top: 30px;
+}
+.gallery_img4 {
+  margin-top: -8.3%;
+}
+.gallery_con {
+  margin-top: 55px;
+  margin-bottom: 77px;
+}
+
+@media (max-width: 760px) {
+  .gallery_img4 {
+    margin-top: 0;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
