@@ -26,6 +26,10 @@
   font-family: "Roboto-Light"
   src: url("../fonts/Roboto-Light.ttf")
 
+@font-face
+  font-family: "LeagueGothic-Regular"
+  src: url("../fonts/LeagueGothic-Regular.otf")
+
 $Blue: #36aeea
 $Gray: #95a5ad
 $Gray-text: #949494
@@ -489,3 +493,37 @@ nav ul
 @media (max-width: 760px)
   .gallery_img4
     margin-top: 0
+
+.linkline
+  background: #f8f9fa
+  height: 100%
+  & img
+    margin: 6vh
+
+.clients
+  background-image: url("../image/clients/mountins_back.png")
+  height: 744px
+  &_wave
+    margin-top: 70px
+    margin-bottom: 35px
+  & h1
+    font-family: OpenSans-Bold, serif
+    font-size: 30px
+    color: #2c2e37
+  &_con
+    margin-top: 60px
+    &_block p
+      font-size: 18px
+    &_block p:nth-child(1)
+      font-family: LeagueGothic-Regular, serif
+      font-size: 92px
+      margin: 0
+      height: 80px
+    &_block_img
+      margin-top: 25px
+      font-size: 16px
+      color: #36aeea
+      font-family: OpenSans-Regular, serif
+      & img
+        padding-right: 20px
+
