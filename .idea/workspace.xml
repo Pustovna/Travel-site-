@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,6 +237,8 @@
       <workItem from="1591044065523" duration="1334000" />
       <workItem from="1591172488170" duration="599000" />
       <workItem from="1591775920442" duration="1577000" />
+      <workItem from="1591778761817" duration="1754000" />
+      <workItem from="1591869932252" duration="500000" />
     </task>
     <servers />
   </component>
@@ -262,11 +263,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="192" y="400" key="EnvironmentVariablesDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190377516" />
-    <state x="1203" y="275" key="FileChooserDialogImpl" timestamp="1590584245441">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="856" y="193" key="FileChooserDialogImpl" timestamp="1591780024590">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1203" y="275" key="FileChooserDialogImpl/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589738056535" />
-    <state x="856" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588883171642" />
+    <state x="856" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591780024590" />
     <state x="1203" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590584245441" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1589396657315">
       <screen x="0" y="0" width="1920" height="1040" />
