@@ -23,20 +23,32 @@
             <div class="col-md-2 top-block_logo">
               <span class="top-block_logo_b">Moun</span><span>tains</span>
             </div>
-            <div class="col-md-6">
-              <nav>
-                <ul class="navbar list-inline text-uppercase">
-                  <li><a href="#about_us">our story</a></li>
-                  <li><a href="#work_order">services</a></li>
-                  <li><a href="#work">work</a></li>
-                  <li><a href="#journal">journal</a></li>
-                  <li><a href="#contacts">contact</a></li>
-                  <li><a href="#travel">work</a></li>
-                  <li><a href="#gallery">journal</a></li>
-                </ul>
+            <div class="col-md-6 my-auto">
+              <nav class="navbar-expand-md">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#Nav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span>Menu</span>
+                </button>
+                <div class="collapse navbar-collapse" id="Nav">
+                  <ul class="navbar-nav list-inline text-uppercase">
+                    <li><a href="#about_us">our story</a></li>
+                    <li><a href="#work_order">services</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#journal">journal</a></li>
+                    <li><a href="#contacts">contact</a></li>
+                    <li><a href="#travel">work</a></li>
+                    <li><a href="#gallery">journal</a></li>
+                  </ul>
+                </div>
               </nav>
             </div>
-            <div class="col-md-4 top-block_button text-right">
+            <div class="col-md-4 top-block_button text-md-right">
               <button
                 type="button"
                 class="btn text-uppercase btn-outline-primary"
@@ -51,6 +63,7 @@
         <img
           src="image/block_man.png"
           class="top-block_man position-absolute"
+          alt="man"
         />
         <div class="row">
           <div class="col-12 top-block_col">
@@ -73,12 +86,13 @@
           <img
             src="image/blog_map.png"
             class="about-us_map d-none d-lg-block"
+            alt="map"
           />
           <div class="row about-us_col">
             <div
               class="col-lg-4 col-md-12 my-auto px-md-0 px-xs-1 about-us_box"
             >
-              <img src="image/wave.png" class="mb-5" alt="wave" />
+              <img src="image/wave.png" class="mb-5 mt-4" alt="wave" />
               <h2>about us</h2>
               <span
                 >Aliquam sed posuere urna, et gravida nisl. Praesent interdum
@@ -227,7 +241,7 @@
       </section>
     </div>
     <div class="container-fluid do_you">
-      <section id="#work_order">
+      <section id="work_order">
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-sm-12">
@@ -245,10 +259,14 @@
                   class="d-flex align-items-center flex-wrap flex-md-row flex-column"
                 >
                   <div class="do_you_form_input">
-                    <input type="text" placeholder="Your name:" />
+                    <label>
+                      <input type="text" placeholder="Your name:" />
+                    </label>
                   </div>
                   <div class="do_you_form_phone do_you_form_input">
-                    <input type="text" placeholder="Your phone:" />
+                    <label>
+                      <input type="text" placeholder="Your phone:" />
+                    </label>
                   </div>
                   <div class="ml-md-auto do_you_form_button">
                     <button type="submit" class="btn btn-default">
@@ -258,7 +276,7 @@
                 </form>
               </div>
               <div class="do_you_lock">
-                <img src="image/form/Lock%20locked.png" />
+                <img src="image/form/Lock%20locked.png" alt="lock" />
                 <span>* Your data will not be transferred</span>
               </div>
             </div>
@@ -287,9 +305,6 @@
             <img src="image/wave.png" alt="wave" />
           </div>
           <h1 class="text-center text-uppercase">how we work</h1>
-          <div class="work_border mx-auto">
-            <div class="work_border_circle"></div>
-          </div>
           <div class="container work_card">
             <div class="work_card_border d-sm-flex mx-auto d-none">
               <div class="work_point_grey">
@@ -418,7 +433,7 @@
       </section>
     </div>
     <div class="container-fluid travel">
-      <section id="#travel">
+      <section id="travel">
         <div class="container">
           <div class="travel_wave text-center">
             <img src="image/wave.png" alt="wave" />
@@ -431,7 +446,7 @@
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div>
+                <div class="travel_card_stars">
                   <img src="image/travel/4stars.png" alt="stars" />
                 </div>
                 <div>
@@ -451,7 +466,7 @@
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div>
+                <div class="travel_card_stars">
                   <img src="image/travel/5stars.png" alt="stars" />
                 </div>
                 <div>
@@ -471,7 +486,7 @@
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div>
+                <div class="travel_card_stars">
                   <img src="image/travel/5stars.png" alt="stars" />
                 </div>
                 <div>
@@ -491,7 +506,7 @@
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div>
+                <div class="travel_card_stars">
                   <img src="image/travel/5stars.png" alt="stars" />
                 </div>
                 <div>
@@ -511,7 +526,7 @@
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div>
+                <div class="travel_card_stars">
                   <img src="image/travel/3stars.png" alt="stars" />
                 </div>
                 <div>
@@ -629,7 +644,7 @@
                   irure dolor in reprehenderit in voluptate velit esse
                 </p>
                 <div class="clients_con_block_img">
-                  <img src="image/clients/pavliv.png" /><span
+                  <img src="image/clients/pavliv.png" alt="Pavliv" /><span
                     class="font-weight-bold"
                     >Pavliv Yaroslav </span
                   ><span>Web designer</span>
@@ -644,7 +659,7 @@
                   irure dolor in reprehenderit in voluptate velit esse
                 </p>
                 <div class="clients_con_block_img">
-                  <img src="image/clients/john.png" /><span
+                  <img src="image/clients/john.png" alt="John" /><span
                     class="font-weight-bold"
                     >John Scott </span
                   ><span>The Fringe</span>
@@ -664,7 +679,8 @@
               Sign up for our newsletter to receive updates
             </p>
             <div class="form-group">
-              <input
+              <label for="name"></label
+              ><input
                 type="text"
                 id="name"
                 class="form-control"
@@ -673,7 +689,8 @@
               />
             </div>
             <div class="form-group">
-              <input
+              <label for="phone"></label
+              ><input
                 type="text"
                 id="phone"
                 class="form-control"
@@ -682,7 +699,8 @@
               />
             </div>
             <div class="form-group">
-              <input
+              <label for="email"></label
+              ><input
                 type="email"
                 id="email"
                 class="form-control"
@@ -705,9 +723,13 @@
               <p>All rights reserved 2015</p>
             </div>
             <div class="col-md-4 my-auto text-center">
-              <img src="image/icon/twitter_foot.PNG" alt="twitter" />
-              <img src="image/icon/faceboock_foo.PNG" alt="facebook" />
-              <img src="image/icon/vk_foot.PNG" alt="vk" />
+              <a href=""
+                ><img src="image/icon/twitter_foot.PNG" alt="twitter"
+              /></a>
+              <a href=""
+                ><img src="image/icon/faceboock_foo.PNG" alt="facebook"
+              /></a>
+              <a href=""><img src="image/icon/vk_foot.PNG" alt="vk" /></a>
             </div>
             <div class="col-md-4 my-auto text-center">
               <h5>1 234 243 123</h5>
@@ -716,5 +738,20 @@
         </div>
       </footer>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
