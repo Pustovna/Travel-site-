@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="">
+    <list default="true" id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="fixed mobile version">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Travel Site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Travel Site.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Travel Site" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,7 +41,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Nastya\AppData\Roaming\npm\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -239,21 +245,93 @@
       <workItem from="1591775920442" duration="1577000" />
       <workItem from="1591778761817" duration="1754000" />
       <workItem from="1591869932252" duration="500000" />
+      <workItem from="1591871203710" duration="624000" />
+      <workItem from="1591872744843" duration="891000" />
+      <workItem from="1591873665272" duration="698000" />
+      <workItem from="1591944152716" duration="1933000" />
+      <workItem from="1591946121783" duration="1699000" />
+      <workItem from="1591948017514" duration="1124000" />
+      <workItem from="1591952859765" duration="1748000" />
+      <workItem from="1591954728381" duration="1790000" />
+      <workItem from="1591956542234" duration="663000" />
+      <workItem from="1592038302481" duration="1450000" />
+      <workItem from="1592040120731" duration="1785000" />
+      <workItem from="1592041927430" duration="1802000" />
+      <workItem from="1592471390640" duration="606000" />
+      <workItem from="1592490156762" duration="2000" />
+      <workItem from="1592806352777" duration="1251000" />
+      <workItem from="1592808200617" duration="906000" />
+      <workItem from="1592828518060" duration="600000" />
+      <workItem from="1592907256502" duration="20000" />
+      <workItem from="1593330496555" duration="1083000" />
+      <workItem from="1593332384188" duration="1885000" />
+      <workItem from="1593418244908" duration="1103000" />
+      <workItem from="1593427262117" duration="1810000" />
+      <workItem from="1593429099969" duration="1606000" />
+      <workItem from="1593430989093" duration="1794000" />
+      <workItem from="1593432973930" duration="1733000" />
+      <workItem from="1593435693695" duration="644000" />
+      <workItem from="1593446159423" duration="1826000" />
+      <workItem from="1593448012562" duration="1788000" />
+      <workItem from="1593449841665" duration="274000" />
+      <workItem from="1593450135617" duration="77000" />
+      <workItem from="1593629251598" duration="1772000" />
+      <workItem from="1593631091617" duration="1470000" />
+      <workItem from="1593765387640" duration="1791000" />
+      <workItem from="1593781232423" duration="1401000" />
+      <workItem from="1593783769571" duration="1543000" />
+      <workItem from="1593785647494" duration="1179000" />
+      <workItem from="1593799041496" duration="1307000" />
+      <workItem from="1593800844582" duration="1058000" />
     </task>
+    <task id="LOCAL-00001" summary="form for mobile version">
+      <created>1591873401058</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591873401058</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="form for mobile version" />
+    <MESSAGE value="fixed mobile version" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed mobile version" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="22" key="#Inspections" timestamp="1591039394463">
+    <state x="275" y="22" key="#Inspections" timestamp="1593800494270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1591039394463" />
+    <state x="275" y="22" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1593800494270" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589401424313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589401424313" />
+    <state x="308" y="0" width="976" height="728" key="CommitChangelistDialog2" timestamp="1593801914643">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" width="976" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1593801914643" />
+    <state x="57" y="176" key="DiffContextDialog" timestamp="1591873268251">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="176" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1591873268251" />
     <state x="935" y="186" width="731" height="666" key="EditFileWatcherDialog" timestamp="1589396655673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,17 +341,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="192" y="400" key="EnvironmentVariablesDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190377516" />
-    <state x="856" y="193" key="FileChooserDialogImpl" timestamp="1591780024590">
+    <state x="856" y="193" key="FileChooserDialogImpl" timestamp="1593450145408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1203" y="275" key="FileChooserDialogImpl/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589738056535" />
-    <state x="856" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1591780024590" />
+    <state x="856" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593450145408" />
     <state x="1203" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590584245441" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1589396657315">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="121" y="11" key="SettingsEditor" timestamp="1591873632999">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1038" y="422" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@-1366.409.1366.728" timestamp="1589191049598" />
     <state x="461" y="162" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589396657315" />
+    <state x="121" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591873632999" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588672641997" />
     <state x="50" y="297" key="scopes" timestamp="1589190065344">
       <screen x="0" y="0" width="1920" height="1040" />
