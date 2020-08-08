@@ -17,14 +17,14 @@
   </head>
   <body>
     <div class="container-fluid top-block">
-      <header class="top-block_header">
+      <header class="top-block-header">
         <div class="container">
           <div class="row">
-            <div class="col-md-2 top-block_logo">
-              <span class="top-block_logo_b">Moun</span><span>tains</span>
+            <div class="col-md-2 top-block-logo">
+              <span class="top-block-logo__brand">Moun</span><span>tains</span>
             </div>
             <div class="col-md-6 my-auto">
-              <nav class="navbar-expand-md">
+              <nav class="navbar-expand-md nav">
                 <button
                   class="navbar-toggler"
                   type="button"
@@ -33,25 +33,25 @@
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <span>Menu</span>
+                  <span class="nav__menu-link">Menu</span>
                 </button>
                 <div class="collapse navbar-collapse" id="Nav">
-                  <ul class="navbar-nav list-inline text-uppercase">
-                    <li><a href="#about_us">our story</a></li>
-                    <li><a href="#work_order">services</a></li>
-                    <li><a href="#work">work</a></li>
-                    <li><a href="#journal">journal</a></li>
-                    <li><a href="#contacts">contact</a></li>
-                    <li><a href="#travel">work</a></li>
-                    <li><a href="#gallery">journal</a></li>
+                  <ul class="navbar-nav list-inline text-uppercase nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#about_us">our story</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#work_order">services</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#work">work</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#journal">journal</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#contacts">contact</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#travel">work</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#gallery">journal</a></li>
                   </ul>
                 </div>
               </nav>
             </div>
-            <div class="col-md-4 top-block_button text-md-right">
+            <div class="col-md-4 top-block-header__button text-md-right">
               <button
                 type="button"
-                class="btn text-uppercase btn-outline-primary"
+                class="btn text-uppercase"
               >
                 call us
               </button>
@@ -62,19 +62,19 @@
       <div class="container">
         <img
           src="image/block_man.png"
-          class="top-block_man position-absolute"
+          class="top-block__man position-absolute"
           alt="man"
         />
         <div class="row">
-          <div class="col-12 top-block_col">
-            <div class="top-block_box">
+          <div class="col-12 top-block-main">
+            <div class="top-block-main__box">
               <h1>travel with us</h1>
               <h1>to the Mountains</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing <br />
                 elit, sed do eiusmod tempor incidid
               </p>
-              <button type="button" class="btn">order now</button>
+              <div class="top-block-main__button"><button type="button" class="btn">order now</button></div>
             </div>
           </div>
         </div>
@@ -82,36 +82,36 @@
     </div>
     <div class="container-fluid about-us">
       <section id="about_us">
-        <div class="container about-us_cont">
+        <div class="container about-us-cont">
           <img
             src="image/blog_map.png"
-            class="about-us_map d-none d-lg-block"
+            class="about-us__map d-none d-lg-block"
             alt="map"
           />
-          <div class="row about-us_col">
+          <div class="row about-us-col">
             <div
-              class="col-lg-4 col-md-12 my-auto px-md-0 px-xs-1 about-us_box"
+              class="col-lg-4 col-md-12 my-auto px-md-0 px-xs-1 about-us-box"
             >
               <img src="image/wave.png" class="mb-5 mt-4" alt="wave" />
-              <h2>about us</h2>
-              <span
+              <h2 class="about-us-box__title">about us</h2>
+              <span class="about-us-box__text"
                 >Aliquam sed posuere urna, et gravida nisl. Praesent interdum
                 nisl libero, pretium egestas purus eleifend vitae. Mauris
                 suscipit vel lectus at luctus.</span
               >
-              <div>
+              <div class="about-us-box__button">
                 <button type="button" class="btn btn-default">read more</button>
               </div>
             </div>
-            <div class="col-md-8 about-us_image">
+            <div class="col-md-8 about-us-image">
               <img
                 src="image/blog_2.png"
-                class="about-us_image_blog-2 d-none d-lg-block"
+                class="about-us-image__blog-2 d-none d-lg-block"
                 alt="picture"
               />
               <img
                 src="image/blog_1.png"
-                class="about-us_image_blog_1 d-none d-lg-block"
+                class="about-us-image__blog-1 d-none d-lg-block"
                 alt="picture"
               />
             </div>
@@ -122,15 +122,15 @@
     <div class="container-fluid journal">
       <section id="journal">
         <div class="container">
-          <div class="text-center journal_wave">
+          <div class="text-center journal__wave">
             <img src="image/wave.png" alt="wave" />
           </div>
-          <h1 class="text-center text-uppercase">our journal</h1>
-          <div class="journal_shadow">
+          <h1 class="text-center text-uppercase journal__title">our journal</h1>
+          <div class="journal__shadow">
             <div class="row">
               <div class="col-12">
                 <div class="card-group">
-                  <div class="card journal_img">
+                  <div class="card journal-img">
                     <img
                       src="image/journal/journal_mauntains.png"
                       alt="picture mauntains"
@@ -140,7 +140,7 @@
                       alt="picture hard"
                     />
                     <div
-                      class="journal_img_triangle journal_img_triangle_mauntains"
+                      class="journal-img__triangle journal-img__triangle-mauntains"
                     ></div>
                   </div>
                   <div class="card text-center">
@@ -163,7 +163,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="card journal_img">
+                  <div class="card journal-img">
                     <img
                       src="image/journal/journal_lake.png"
                       alt="picture lake"
@@ -173,7 +173,7 @@
                       alt="picture drop"
                     />
                     <div
-                      class="journal_img_triangle journal_img_triangle_lake"
+                      class="journal-img__triangle journal-img__triangle-lake"
                     ></div>
                   </div>
                 </div>
@@ -201,7 +201,7 @@
                       </p>
                     </div>
                   </div>
-                  <div class="card journal_img">
+                  <div class="card journal-img">
                     <img
                       src="image/journal/journal_forest.png"
                       alt="picture forest"
@@ -211,7 +211,7 @@
                       alt="picture leaf"
                     />
                     <div
-                      class="journal_img_triangle journal_img_triangle_forest"
+                      class="journal-img__triangle journal-img__triangle-forest"
                     ></div>
                   </div>
                   <div class="card text-center">
@@ -240,12 +240,12 @@
         </div>
       </section>
     </div>
-    <div class="container-fluid do_you">
+    <div class="container-fluid do-you">
       <section id="work_order">
         <div class="container">
           <div class="row">
             <div class="col-md-9 col-sm-12">
-              <div class="do_you_text">
+              <div class="do-you__text">
                 <img src="image/wave.png" alt="wave" />
                 <h2>do you wanna go?</h2>
                 <span
@@ -254,40 +254,40 @@
                   Mauris suscipit vel lectus at luctus.</span
                 >
               </div>
-              <div class="do_you_form">
+              <div class="do-you-form">
                 <form
                   class="d-flex align-items-center flex-wrap flex-md-row flex-column"
                 >
-                  <div class="do_you_form_input">
+                  <div class="do-you-form__input">
                     <label>
                       <input type="text" placeholder="Your name:" />
                     </label>
                   </div>
-                  <div class="do_you_form_phone do_you_form_input">
+                  <div class="do-you-form__phone do-you-form__input">
                     <label>
                       <input type="text" placeholder="Your phone:" />
                     </label>
                   </div>
-                  <div class="ml-md-auto do_you_form_button">
+                  <div class="ml-md-auto do-you-form__button">
                     <button type="submit" class="btn btn-default">
                       order now
                     </button>
                   </div>
                 </form>
               </div>
-              <div class="do_you_lock">
-                <img src="image/form/Lock%20locked.png" alt="lock" />
+              <div class="do-you-lock">
+                <img class="do-you-lock__img" src="image/form/Lock%20locked.png" alt="lock" />
                 <span>* Your data will not be transferred</span>
               </div>
             </div>
-            <div class="col-lg-2 do_you_pine1">
+            <div class="col-lg-2 do-you__pine1">
               <img
                 src="image/form/pine.png"
                 class="d-none d-lg-block"
                 alt="pine"
               />
             </div>
-            <div class="col-lg-1 do_you_pine2">
+            <div class="col-lg-1 do-you__pine2">
               <img
                 src="image/form/pine1.png"
                 class="d-none d-lg-block"
@@ -301,128 +301,128 @@
     <div class="container-fluid work">
       <section id="work">
         <div class="container">
-          <div class="text-center work_wave">
+          <div class="text-center work__wave">
             <img src="image/wave.png" alt="wave" />
           </div>
-          <h1 class="text-center text-uppercase">how we work</h1>
-          <div class="container work_card">
-            <div class="work_card_border d-sm-flex mx-auto d-none">
-              <div class="work_point_grey">
-                <img src="image/work/point_grey.png" alt="point" />
+          <h1 class="text-center text-uppercase work__title">how we work</h1>
+          <div class="container work-card">
+            <div class="work-card-border d-sm-flex mx-auto d-none">
+              <div class="work-point__grey">
+                <img class="work-point__imggrey" src="image/work/point_grey.png" alt="point" />
               </div>
-              <div class="work_card_border_con">
-                <div class="work_card_border_circle text-center">1</div>
-                <div class="work_card_border_arrow"></div>
-                <div class="work_card_border_arrow2"></div>
+              <div class="work-card-border__con">
+                <div class="work-card-border__circle text-center">1</div>
+                <div class="work-card-arrow"></div>
+                <div class="work-card-arrow2"></div>
               </div>
-              <div class="work_card_border_con work_card_border_con_grey">
-                <div class="work_card_border_circle text-center">2</div>
+              <div class="work-card-border__con work-card-border__grey">
+                <div class="work-card-border__circle text-center">2</div>
               </div>
-              <div class="work_card_border_con work_card_border_con_blue">
-                <div class="work_card_border_circle text-center">3</div>
+              <div class="work-card-border__con work-card-border__blue">
+                <div class="work-card-border__circle text-center">3</div>
                 <div
-                  class="work_card_border_arrow_blue work_card_border_arrow"
+                  class="work-card-arrow__blue work-card-arrow"
                 ></div>
                 <div
-                  class="work_card_border_arrow_blue work_card_border_arrow2"
+                  class="work-card-arrow__blue work-card-arrow2"
                 ></div>
               </div>
               <div>
                 <div
-                  class="work_card_border_circle work_card_border_circle4 text-center"
+                  class="work-card-border__circle work-card-border__4 text-center"
                 >
                   4
                 </div>
-                <div class="work_point_blue">
-                  <img src="image/work/point_blue.png" alt="point" />
+                <div class="work-point__blue">
+                  <img class="work-point__imgblue" src="image/work/point_blue.png" alt="point" />
                 </div>
               </div>
             </div>
           </div>
-          <div class="row work_card_des">
+          <div class="row work-card__des">
             <div class="col-sm-3 text-center">
-              <div class="work_card_circle mx-auto">
+              <div class="work-card__circle mx-auto">
                 <div>
                   <img
                     src="image/work/hexagon.png"
-                    class="work_card_circle_hexagon"
+                    class="work-card__hexagon"
                     alt="hexagon"
                   />
                   <img
                     src="image/work/icon_1.png"
-                    class="work_card_circle_icon"
+                    class="work-card__icon"
                     alt="icon"
                   />
                 </div>
               </div>
-              <h5>Lorem ipsum dolor sit</h5>
-              <span
+              <h5 class="work-card__title">Lorem ipsum dolor sit</h5>
+              <span class="work-card__text"
                 >amet, consectetur adipisicing<br />
                 elit, sed do eiusmod tempor<br />
                 incididunt</span
               >
             </div>
             <div class="col-sm-3 text-center">
-              <div class="work_card_circle mx-auto">
+              <div class="work-card__circle mx-auto">
                 <div>
                   <img
                     src="image/work/hexagon.png"
-                    class="work_card_circle_hexagon"
+                    class="work-card__hexagon"
                     alt="hexagon"
                   />
                   <img
                     src="image/work/icon_2.png"
-                    class="work_card_circle_icon"
+                    class="work-card__icon"
                     alt="icon"
                   />
                 </div>
               </div>
-              <h5>Lorem ipsum dolor sit</h5>
-              <span
+              <h5 class="work-card__title">Lorem ipsum dolor sit</h5>
+              <span class="work-card__text"
                 >amet, consectetur adipisicing<br />
                 elit, sed do eiusmod tempor<br />
                 incididunt</span
               >
             </div>
             <div class="col-sm-3 text-center">
-              <div class="work_card_circle mx-auto">
+              <div class="work-card__circle mx-auto">
                 <div>
                   <img
                     src="image/work/hexagon.png"
-                    class="work_card_circle_hexagon"
+                    class="work-card__hexagon"
                     alt="hexagon"
                   />
                   <img
                     src="image/work/icon_3.png"
-                    class="work_card_circle_icon"
+                    class="work-card__icon"
                     alt="icon"
                   />
                 </div>
               </div>
-              <h5>Lorem ipsum dolor sit</h5>
-              <span
+              <h5 class="work-card__title">Lorem ipsum dolor sit</h5>
+              <span class="work-card__text"
                 >amet, consectetur adipisicing<br />
                 elit, sed do eiusmod tempor<br />
                 incididunt</span
               >
             </div>
             <div class="col-sm-3 text-center">
-              <div class="work_card_circle mx-auto">
+              <div class="work-card__circle mx-auto">
                 <div>
                   <img
                     src="image/work/hexagon.png"
-                    class="work_card_circle_hexagon"
+                    class="work-card__hexagon"
                     alt="hexagon"
                   />
                   <img
                     src="image/work/icon_4.png"
-                    class="work_card_circle_icon"
+                    class="work-card__icon"
                     alt="icon"
                   />
                 </div>
               </div>
-              <h5>Lorem ipsum dolor sit</h5>
-              <span
+              <h5 class="work-card__title">Lorem ipsum dolor sit</h5>
+              <span class="work-card__text"
                 >amet, consectetur adipisicing<br />
                 elit, sed do eiusmod tempor<br />
                 incididunt</span
@@ -435,109 +435,109 @@
     <div class="container-fluid travel">
       <section id="travel">
         <div class="container">
-          <div class="travel_wave text-center">
+          <div class="travel__wave text-center">
             <img src="image/wave.png" alt="wave" />
           </div>
-          <img src="image/travel/bluemap.png" class="travel_map" alt="map" />
-          <h1 class="text-center text-uppercase">travel with us</h1>
-          <div class="travel_con card-deck">
-            <div class="card travel_card">
+          <img src="image/travel/bluemap.png" class="travel__map" alt="map" />
+          <h1 class="text-center text-uppercase travel__title">travel with us</h1>
+          <div class="travel-con card-deck">
+            <div class="card travel-card">
               <img src="image/travel/card1.png" class="card-img" alt="photo" />
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div class="travel_card_stars">
+                <div class="travel-card__stars">
                   <img src="image/travel/4stars.png" alt="stars" />
                 </div>
                 <div>
-                  <h5 class="card-title">Carpathian</h5>
+                  <h5 class="card-title travel-card__title">Carpathian</h5>
                   <p class="card-text">
                     Lorem ipsum dolor si amet, consectetur
                   </p>
                 </div>
-                <div class="d-flex justify-content-between travel_con_price">
-                  <p class="my-auto"><del>3150$</del></p>
-                  <p class="my-auto">$793</p>
+                <div class="d-flex justify-content-between travel-card__price">
+                  <p class="my-auto travel-card__sum"><del class="travel-card__del">3150$</del></p>
+                  <p class="my-auto travel-card__sum">$793</p>
                 </div>
               </div>
             </div>
-            <div class="card travel_card">
+            <div class="card travel-card">
               <img src="image/travel/card2.png" class="card-img" alt="photo" />
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div class="travel_card_stars">
+                <div class="travel-card__stars">
                   <img src="image/travel/5stars.png" alt="stars" />
                 </div>
                 <div>
-                  <h5 class="card-title">Alps</h5>
+                  <h5 class="card-title travel-card__title">Alps</h5>
                   <p class="card-text">
                     Lorem ipsum dolor si amet, consectetur
                   </p>
                 </div>
-                <div class="d-flex justify-content-between travel_con_price">
-                  <p class="my-auto"><del>3150$</del></p>
-                  <p class="my-auto">$1893</p>
+                <div class="d-flex justify-content-between travel-card__price">
+                  <p class="my-auto travel-card__sum"><del class="travel-card__del">3150$</del></p>
+                  <p class="my-auto travel-card__sum">$1893</p>
                 </div>
               </div>
             </div>
-            <div class="card travel_card">
+            <div class="card travel-card">
               <img src="image/travel/card3.png" class="card-img" alt="photo" />
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div class="travel_card_stars">
+                <div class="travel-card__stars">
                   <img src="image/travel/5stars.png" alt="stars" />
                 </div>
                 <div>
-                  <h5 class="card-title">Pyrenees</h5>
+                  <h5 class="card-title travel-card__title">Pyrenees</h5>
                   <p class="card-text">
                     Lorem ipsum dolor si amet, consectetur
                   </p>
                 </div>
-                <div class="d-flex justify-content-between travel_con_price">
-                  <p class="my-auto"><del>3150$</del></p>
-                  <p class="my-auto">$2593</p>
+                <div class="d-flex justify-content-between travel-card__price">
+                  <p class="my-auto travel-card__sum"><del class="travel-card__del">3150$</del></p>
+                  <p class="my-auto travel-card__sum">$2593</p>
                 </div>
               </div>
             </div>
-            <div class="card travel_card">
+            <div class="card travel-card">
               <img src="image/travel/card4.png" class="card-img" alt="photo" />
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div class="travel_card_stars">
+                <div class="travel-card__stars">
                   <img src="image/travel/5stars.png" alt="stars" />
                 </div>
                 <div>
-                  <h5 class="card-title">Rocky</h5>
+                  <h5 class="card-title travel-card__title">Rocky</h5>
                   <p class="card-text">
                     Lorem ipsum dolor si amet, consectetur
                   </p>
                 </div>
-                <div class="d-flex justify-content-between travel_con_price">
-                  <p class="my-auto"><del>3150$</del></p>
-                  <p class="my-auto">$2123</p>
+                <div class="d-flex justify-content-between travel-card__price">
+                  <p class="my-auto travel-card__sum"><del class="travel-card__del">3150$</del></p>
+                  <p class="my-auto travel-card__sum">$2123</p>
                 </div>
               </div>
             </div>
-            <div class="card travel_card">
+            <div class="card travel-card">
               <img src="image/travel/card5.png" class="card-img" alt="photo" />
               <div
                 class="card-img-overlay d-flex flex-column justify-content-between"
               >
-                <div class="travel_card_stars">
+                <div class="travel-card__stars">
                   <img src="image/travel/3stars.png" alt="stars" />
                 </div>
                 <div>
-                  <h5 class="card-title">Kavkaz</h5>
+                  <h5 class="card-title travel-card__title">Kavkaz</h5>
                   <p class="card-text">
                     Lorem ipsum dolor si amet, consectetur
                   </p>
                 </div>
-                <div class="d-flex justify-content-between travel_con_price">
-                  <p class="my-auto"><del>3150$</del></p>
-                  <p class="my-auto">$593</p>
+                <div class="d-flex justify-content-between travel-card__price">
+                  <p class="my-auto travel-card__sum"><del class="travel-card__del">3150$</del></p>
+                  <p class="my-auto travel-card__sum">$593</p>
                 </div>
               </div>
             </div>
@@ -549,52 +549,52 @@
     <div class="container-fluid gallery">
       <section id="gallery">
         <div class="container">
-          <div class="gallery_wave text-center">
+          <div class="gallery__wave text-center">
             <img src="image/wave.png" alt="wave" />
           </div>
-          <h1 class="text-center text-uppercase">gallery</h1>
-          <div class="container gallery_con">
+          <h1 class="text-center text-uppercase galery__title">gallery</h1>
+          <div class="container gallery__con">
             <div class="row">
               <div class="col-md-3">
                 <img
                   src="image/gallery/photo1.png"
                   alt="photo"
-                  class="img-fluid"
+                  class="img-fluid gallery__img"
                 />
               </div>
               <div class="col-md-4">
                 <img
                   src="image/gallery/photo2.png"
                   alt="photo"
-                  class="img-fluid"
+                  class="img-fluid gallery__img"
                 />
               </div>
               <div class="col-md-5">
                 <img
                   src="image/gallery/photo3.png"
                   alt="photo"
-                  class="img-fluid"
+                  class="img-fluid gallery__img"
                 />
               </div>
               <div class="col-md-3">
                 <img
                   src="image/gallery/photo4.png"
                   alt="photo"
-                  class="img-fluid"
+                  class="img-fluid gallery__img"
                 />
               </div>
-              <div class="col-md-4 gallery_img4">
+              <div class="col-md-4 gallery__img4">
                 <img
                   src="image/gallery/photo5.png"
                   alt="photo"
-                  class="img-fluid"
+                  class="img-fluid gallery__img"
                 />
               </div>
               <div class="col-md-5">
                 <img
                   src="image/gallery/photo6.png"
                   alt="photo"
-                  class="img-fluid"
+                  class="img-fluid gallery__img"
                 />
               </div>
             </div>
@@ -606,22 +606,22 @@
       <div class="container">
         <div class="row">
           <div class="col-md-2 my-auto">
-            <a><img src="image/icon/slack.png" alt="slack" /></a>
+            <a href=""><img class="linkline__img" src="image/icon/slack.png" alt="slack" /></a>
           </div>
           <div class="col-md-2 my-auto">
-            <a><img src="image/icon/adobe.png" alt="adobe" /></a>
+            <a href=""><img class="linkline__img" src="image/icon/adobe.png" alt="adobe" /></a>
           </div>
           <div class="col-md-2 my-auto">
-            <a><img src="image/icon/google.png" alt="google" /></a>
+            <a href=""><img class="linkline__img" src="image/icon/google.png" alt="google" /></a>
           </div>
           <div class="col-md-2 my-auto">
-            <a><img src="image/icon/facebook.png" alt="facebook" /></a>
+            <a href=""><img class="linkline__img" src="image/icon/facebook.png" alt="facebook" /></a>
           </div>
           <div class="col-md-2 my-auto">
-            <a><img src="image/icon/spotify.png" alt="spotify" /></a>
+            <a href=""><img class="linkline__img" src="image/icon/spotify.png" alt="spotify" /></a>
           </div>
           <div class="col-md-2 my-auto">
-            <a><img src="image/icon/icon1.png" alt="icon" /></a>
+            <a href=""><img class="linkline__img" src="image/icon/icon1.png" alt="icon" /></a>
           </div>
         </div>
       </div>
@@ -629,40 +629,40 @@
     <div class="container-fluid clients">
       <section id="clients">
         <div class="container">
-          <div class="clients_wave text-center">
+          <div class="clients__wave text-center">
             <img src="image/wave.png" alt="wave" />
           </div>
-          <h1 class="text-center text-uppercase">our clients say</h1>
-          <div class="container clients_con">
+          <h1 class="text-center text-uppercase clients__title">our clients say</h1>
+          <div class="container clients-con">
             <div class="row">
-              <div class="col-md-6 clients_con_block">
-                <p>“</p>
-                <p>
+              <div class="col-md-6 clients-con__block">
+                <p class="clients-con__quotes">“</p>
+                <p class="clients-con__text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse
                 </p>
-                <div class="clients_con_block_img">
+                <div class="clients-con__img">
                   <img src="image/clients/pavliv.png" alt="Pavliv" /><span
-                    class="font-weight-bold"
+                    class="font-weight-bold clients-con__sign"
                     >Pavliv Yaroslav </span
-                  ><span>Web designer</span>
+                  ><span class="clients-con__sign">Web designer</span>
                 </div>
               </div>
-              <div class="col-md-6 clients_con_block">
-                <p>“</p>
-                <p>
+              <div class="col-md-6 clients-con__block">
+                <p class="clients-con__quotes">“</p>
+                <p class="clients-con__text">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                   irure dolor in reprehenderit in voluptate velit esse
                 </p>
-                <div class="clients_con_block_img">
+                <div class="clients-con__img">
                   <img src="image/clients/john.png" alt="John" /><span
-                    class="font-weight-bold"
+                    class="font-weight-bold clients-con__sign"
                     >John Scott </span
-                  ><span>The Fringe</span>
+                  ><span class="clients-con__sign">The Fringe</span>
                 </div>
               </div>
             </div>
@@ -673,9 +673,9 @@
     <div class="container-fluid contacts">
       <section id="contacts">
         <div class="container">
-          <form class="contacts_form">
-            <h1 class="text-uppercase text-center">contacts</h1>
-            <p class="text-center">
+          <form class="contacts-form">
+            <h1 class="text-uppercase text-center contacts-form__title">contacts</h1>
+            <p class="text-center contacts-form__text">
               Sign up for our newsletter to receive updates
             </p>
             <div class="form-group">
@@ -683,7 +683,7 @@
               ><input
                 type="text"
                 id="name"
-                class="form-control"
+                class="form-control contacts-form__input"
                 placeholder="Name"
                 required
               />
@@ -693,7 +693,7 @@
               ><input
                 type="text"
                 id="phone"
-                class="form-control"
+                class="form-control contacts-form__input"
                 placeholder="Phone"
                 required
               />
@@ -703,12 +703,12 @@
               ><input
                 type="email"
                 id="email"
-                class="form-control"
+                class="form-control contacts-form__input"
                 placeholder="E-mail"
                 required
               />
             </div>
-            <div class="contacts_button">
+            <div class="contacts-form__button">
               <button class="btn btn-primary text-uppercase">send</button>
             </div>
           </form>
@@ -717,22 +717,22 @@
     </div>
     <div class="container-fluid footer">
       <footer>
-        <div class="container footer_con">
+        <div class="container footer-con">
           <div class="row">
             <div class="col-md-4 my-auto text-center">
-              <p>All rights reserved 2015</p>
+              <p class="footer-con__text">All rights reserved 2015</p>
             </div>
             <div class="col-md-4 my-auto text-center">
               <a href=""
-                ><img src="image/icon/twitter_foot.PNG" alt="twitter"
+                ><img class="footer-con__img" src="image/icon/twitter_foot.PNG" alt="twitter"
               /></a>
               <a href=""
-                ><img src="image/icon/faceboock_foo.PNG" alt="facebook"
+                ><img class="footer-con__img" src="image/icon/faceboock_foo.PNG" alt="facebook"
               /></a>
-              <a href=""><img src="image/icon/vk_foot.PNG" alt="vk" /></a>
+              <a href=""><img class="footer-con__img" src="image/icon/vk_foot.PNG" alt="vk" /></a>
             </div>
             <div class="col-md-4 my-auto text-center">
-              <h5>1 234 243 123</h5>
+              <h5 class="footer-con__phone">1 234 243 123</h5>
             </div>
           </div>
         </div>

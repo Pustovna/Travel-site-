@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="fixed mobile version">
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/bg-top-block.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/bg-top-block.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Travel Site" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -292,6 +291,11 @@
       <workItem from="1596214609425" duration="1201000" />
       <workItem from="1596308568653" duration="3468000" />
       <workItem from="1596361719185" duration="475000" />
+      <workItem from="1596391238122" duration="2915000" />
+      <workItem from="1596459262707" duration="4604000" />
+      <workItem from="1596735977305" duration="1149000" />
+      <workItem from="1596740342549" duration="5532000" />
+      <workItem from="1596806535072" duration="3801000" />
     </task>
     <task id="LOCAL-00001" summary="form for mobile version">
       <created>1591873401058</created>
@@ -306,14 +310,92 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
-            <State />
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:/Users/my/Documents/Git/Travel-site-/css" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+        <entry key="2" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -336,11 +418,11 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="600" y="302" key="#Servers/0.23.1792.1097@0.23.1792.1097" timestamp="1595787497430" />
-    <state x="386" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596129931482">
+    <state x="386" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596875962201">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589401424313" />
-    <state x="386" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1596129931482" />
+    <state x="386" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1596875962201" />
     <state x="423" y="238" key="#com.intellij.tools.ToolEditorDialog" timestamp="1595793592763">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -377,6 +459,10 @@
     <state x="121" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591873632999" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588672641997" />
     <state x="159" y="40" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1595793829904" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1596366414942">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1596366414942" />
     <state x="684" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595960003645">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
@@ -385,10 +471,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="50" y="297" key="scopes/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190065344" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup" timestamp="1589467065948">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="454" y="97" width="882" height="1023" key="search.everywhere.popup" timestamp="1596485781423">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="-1020" y="458" width="672" height="678" key="search.everywhere.popup/-1366.409.1366.728/0.0.1920.1040@-1366.409.1366.728" timestamp="1589213705075" />
     <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589467065948" />
+    <state x="454" y="97" width="882" height="1023" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1596485781423" />
   </component>
 </project>

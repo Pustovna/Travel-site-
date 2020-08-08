@@ -41,148 +41,150 @@ body
   line-height: 1.5
   color: $Gray-text
 
-nav a
-  color: #9daeb6
-  font-family: OpenSans-Bold, serif
-
-nav a:hover
-  border-bottom: 2px solid $Blue
-  text-decoration: none
-  color: $Gray-text
-
 .top-block
   background: url("../image/bg-top-block.jpg") no-repeat
   background-size: cover
   padding: 0
   overflow: hidden
-  &_logo
+  &-logo
     font-family: Bringin, serif
     font-size: 29px
     color: $Gray
     padding: 0
-    &_b
+    &__brand
       color: $Blue
-  &_button
-    padding: 0
-  &_button button
-    border: 4px solid $Blue
-    padding: 10px 43px
-    font-size: 12px
-    font-family: Raleway-Black, serif
-    color: $Blue
-  &_button button:hover
-    background: $Blue
-    border: 4px solid $Blue
-  &_header
+  & .nav__link
+    color: #9daeb6
+    font-family: OpenSans-Bold, serif
+    &:hover
+      border-bottom: 2px solid $Blue
+      text-decoration: none
+      color: $Gray-text
+  & .nav__item
+      margin-right: 10px
+  &-header
     background: rgba(255, 255, 255, 0.2)
     padding-top: 22px
     padding-bottom: 20px
-    & ul li
-      margin-right: 10px
-  &_col
+    &__button
+      padding: 0
+      & button
+        border: 4px solid $Blue
+        padding: 10px 43px
+        font-size: 12px
+        font-family: Raleway-Black, serif
+        color: $Blue
+        &:hover
+          background: $Blue
+          border: 4px solid $Blue
+          color: white
+  &-main
     margin: 134px 0 106px 0
     border: 3px solid white
-  &_box
-    margin: 40px 25px
-    h1:nth-child(1)
-      margin-bottom: 0
-      font-family: OpenSans-Bold, serif
+    &__box
+      margin: 40px 25px
+      & h1:nth-child(1)
+        margin-bottom: 0
+        font-family: OpenSans-Bold, serif
+        color: white
+        text-transform: uppercase
+        letter-spacing: 4px
+        font-size: 50px
+      & h1:nth-child(2)
+        font-family: Bringin, serif
+        color: #56c7ff
+        margin-top: -30px
+        font-size: 66px
+      & p
+        color: #d5dadd
+        font-family: OpenSans-Regular, serif
+        padding: 18px 0
+        font-size: 18px
+    &__button button
+      background: $Blue
+      border: 4px solid $Blue
       color: white
+      font-family: Raleway-Regular, serif
       text-transform: uppercase
-      letter-spacing: 4px
-      font-size: 50px
-    h1:nth-child(2)
-      font-family: Bringin, serif
-      color: #56c7ff
-      margin-top: -30px
-      font-size: 66px
-  &_box p
-    color: #d5dadd
-    font-family: OpenSans-Regular, serif
-    padding: 18px 0
-    font-size: 18px
-  &_box .btn
-    background: $Blue
-    border: 4px solid $Blue
-    color: white
-    font-family: Raleway-Regular, serif
-    text-transform: uppercase
-    font-size: 14px
-    font-weight: bold
-    width: 253px
-    height: 60px
-  &_man
+      font-size: 14px
+      font-weight: bold
+      width: 253px
+      height: 60px
+      &:hover
+        color: white
+  &__man
     z-index: 1
-    left: 933px
+    left: 935px
     top: 138px
 @media (max-width: 1420px)
-  .top-block_man
+  .top-block__man
     display: none
 @media (min-width: 1910px)
-  .top-block_man
+  .top-block__man
     display: none
 @media (max-width: 768px)
-  .top-block_logo
+  .top-block-logo
     text-align: center
-  .top-block_header nav
-    text-align: center
-    & span
-      color: $Blue
-      font-size: 25px
-      font-family: Raleway-Black, serif
-    & li a
-      color: $Gray
-  .top-block_header button:focus
+  .top-block-header
+    & .nav
+      text-align: center
+      display: block
+      &__menu-link
+        color: $Blue
+        font-size: 25px
+        font-family: Raleway-Black, serif
+      &__link
+        color: $Gray
+  .top-block-header button:focus
     outline-color: $Blue
-  .top-block_col
+  .top-block-main
     margin: 20px
     flex: auto
     padding-left: 0
     padding-right: 0
     text-align: center
-  .top-block_button
+  .top-block-header__button
     text-align: center
     margin-top: 10px
     & button
       padding: 7px 25px
 @media (max-width: 360px)
-  .top-block_col
+  .top-block-main
     margin: 0
     border: none
 
 
-
 .about-us
   background: $About_back
-  &_cont
+  &-cont
     padding: 0
-  &_box h2
+  &-box__title
     font-family: OpenSans-Bold, serif
     color: $Black-text
     text-transform: uppercase
     font-size: 16px
-  &_box span
+  &-box__text
     font-family: OpenSans-Regular, serif
     font-size: 14px
-  &_image
+  &-image
     margin-top: -36px
     padding-left: 180px
-    &_blog_1
+    &__blog-1
       margin-top: -257px
       margin-left: -90px
       z-index: 2
-    &_blog_2
+    &__blog-2
       z-index: 2
-  &_map
+  &__map
     z-index: 0
     position: absolute
     margin-left: 100px
     margin-top: 22px
     width: 60vw
-  &_col
+  &-col
     padding-bottom: 40px
     padding-left: 15px
-  &_col button
+  &-box__button button
     background: $Blue
     color: white
     width: 130px
@@ -191,57 +193,60 @@ nav a:hover
     font-family: OpenSans-Bold, serif
     margin-top: 30px
     font-size: 12px
-  &_col button:hover
+  &-box__button button:hover
     color: white
 @media (max-width: 1610px)
-  .about-us_image
+  .about-us-image
     overflow: hidden
 @media (max-width: 767px)
   .about-us
     text-align: center
-    &_col
+    &-col
       padding-left: 0
-      & button
-        width: 253px
-        height: 60px
+    &-box__button button
+      width: 253px
+      height: 60px
+@media (max-width: 991px)
+  .about-us-image
+    display: none
 
 .journal
   background: white
-  & h1
+  &__title
     margin-bottom: 70px
     font-family: OpenSans-Bold, serif
     font-size: 22px
     color: $Black-text
-  &_wave
+  &__wave
     margin-top: 70px
     margin-bottom: 30px
   & .card
     border-style: none
     height: 380px
-  &_shadow
+  &__shadow
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.1)
     margin-bottom: 90px
-  &_img img:nth-child(2)
+  &-img img:nth-child(2)
     position: absolute
     top: 39%
     left: 39%
-  &_img_triangle
+  &-img__triangle
     width: 0
     height: 0
     position: absolute
-    &_lake
+    &-lake
       left: 50px
       top: 97.5%
       border-left: 10px solid transparent
       border-right: 10px solid transparent
       border-bottom: 10px solid white
-    &_forest
+    &-forest
       right: 97.5%
       top: 50px
       border-bottom: 10px solid transparent
       border-top: 10px solid transparent
       border-left: 10px solid white
-    &_mauntains
+    &-mauntains
       left: 97.5%
       top: 50px
       border-bottom: 10px solid transparent
@@ -272,22 +277,22 @@ nav a:hover
     font-family: "Times New Roman", serif
     font-size: 14px
 
-.do_you
+.do-you
   background-image: url("../image/form/back.png")
   background-size: cover
   height: 652px
   overflow: hidden
-  &_pine1
+  &__pine1
     margin-top: 238px
     z-index: 1
     & img
       margin-left: -20px
-  &_pine2
+  &__pine2
     margin-top: 30px
     z-index: 2
     & img
       margin-left: -70px
-  &_text
+  &__text
     margin-top: 145px
     & img
       margin-bottom: 37px
@@ -300,14 +305,14 @@ nav a:hover
     & span
       font-family: OpenSans-Regular, serif
       font-size: 16px
-  &_form
+  &-form
     background: white
     border-radius: 3px
     margin-top: 30px
-    &_input
+    &__input
       width: 244px
       padding: 5px 0 5px 20px
-    &_phone
+    &__phone
       border-left: 2px solid #ebebeb
     & input
       border: none
@@ -315,7 +320,7 @@ nav a:hover
       font-family: OpenSans-Regular, serif
       width: 100%
       outline: none
-    & button
+    &__button button
       height: 57px
       background: $Blue
       margin: 3px 3px 3px 0
@@ -326,27 +331,27 @@ nav a:hover
       font-size: 16px
       &:hover
         color: white
-  &_lock
+  &-lock
     font-family: OpenSans-Regular, serif
     font-size: 14px
     color: $Blue
     margin-top: 10px
     margin-left: 3px
-    & img
+    &__img
       margin-left: -3px
       margin-right: 12px
 
 @media (max-width: 1200px)
-  .do_you
+  .do-you
     height: 500px
-  .do_you_form
+  .do-you-form
     background: $About_back
-  .do_you_form_button
+  .do-you-form__button
     width: 100%
     & button
       width: 100%
       margin: 0
-  .do_you_form_input
+  .do-you-form__input
     width: 100%
     padding: 0
     margin-bottom: 5px
@@ -354,53 +359,53 @@ nav a:hover
       width: 100%
     & input
       padding: 5px
-  .do_you_text
+  .do-you__text
     text-align: center
     margin-top: 30px
-  .do_you_lock
+  .do-you-lock
     width: 100%
     margin-top: 10px
-  .do_you_form_phone
+  .do-you-form__phone
     border-left: none
-  .do_you_pine1 .do_you_pine2
+  .do-you__pine1 .do-you__pine2
     display: none
 
 .work
   height: 700px
-  & h5
+  &-card__title
     margin-top: 30px
     font-family: Roboto-Black, serif
     font-size: 18px
     color: $Black-text
-  & span
+  &-card__text
     font-family: Roboto-Light, serif
     font-size: 16px
-  &_wave
+  &__wave
     margin-bottom: 30px
     margin-top: 70px
-  & h1
+  &__title
     font-family: OpenSans-Bold, serif
     font-size: 30px
     color: black
     margin-bottom: 95px
-  &_point_grey
+  &-point__grey
     position: absolute
     width: 30px
     border-bottom: 2px dotted #f0f3f6
     margin-left: -96px
     margin-top: 105px
-    & img
-      margin-left: -20px
-  &_point_blue
+  &-point__imggrey
+    margin-left: -20px
+  &-point__blue
     position: absolute
     width: 30px
     border-bottom: 2px dotted #b5cddf
     margin-left: 65px
     margin-top: 79px
-    & img
-      margin-left: 6px
-  &_card
-    &_circle
+  &-point__imgblue
+    margin-left: 6px
+  &-card
+    &__circle
       width: 180px
       height: 180px
       background: #f0f3f6
@@ -408,29 +413,29 @@ nav a:hover
       -webkit-border-radius: 90px
       border-radius: 90px
       z-index: 1
-      &_hexagon
-        margin-top: 25px
-      &_icon
-        position: absolute
-        margin-top: 67px
-        margin-left: -78px
-    &_des
+    &__hexagon
+      margin-top: 25px
+    &__icon
+      position: absolute
+      margin-top: 67px
+      margin-left: -78px
+    &__des
       margin-top: -90px
-    &_border
+    &-border
       height: 166px
       width: 79%
       margin-top: -10px
-      &_con
+      &__con
         border-top: 2px dashed #f0f3f6
         border-left: 2px dashed #f0f3f6
         width: 290px
         border-bottom: 2px dotted #f0f3f6
-        &_grey
-          border-bottom-color: #b5cddf
-        &_blue
-          border-right: 2px dashed #f0f3f6
-          border-bottom-color: #b5cddf
-      &_circle
+      &__grey
+        border-bottom-color: #b5cddf
+      &__blue
+        border-right: 2px dashed #f0f3f6
+        border-bottom-color: #b5cddf
+      &__circle
         width: 48px
         height: 48px
         border: 3px solid $Blue
@@ -439,73 +444,79 @@ nav a:hover
         margin-left: -24px
         margin-top: -24px
         padding-top: 12px
-        &4
-          margin-right: -30px
-      &_arrow
-        width: 11px
-        height: 2px
-        background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(214,224,231,1) 100%)
-        margin-top: 47.5%
-        margin-left: 50%
-        transform: rotate(45deg)
-        &2
-          width: 11px
-          height: 2px
-          background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(214,224,231,1) 100%)
-          margin-top: 1.5%
-          margin-left: 50%
-          transform: rotate(-45deg)
-        &_blue
-          background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(103,163,204,1) 100%)
-
+      &__4
+        margin-right: -30px
+    &-arrow
+      width: 11px
+      height: 2px
+      background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(214,224,231,1) 100%)
+      margin-top: 47.5%
+      margin-left: 50%
+      transform: rotate(45deg)
+    &-arrow2
+      width: 11px
+      height: 2px
+      background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(214,224,231,1) 100%)
+      margin-top: 1.5%
+      margin-left: 50%
+      transform: rotate(-45deg)
+    &-arrow__blue
+      background: linear-gradient(151deg, rgba(255,255,255,1) 0%, rgba(103,163,204,1) 100%)
+@media (max-width: 1199px)
+  .work-card-arrow__blue
+    display: none
+  .work-card-arrow
+    display: none
+  .work-card-arrow2
+    display: none
 @media (max-width: 575px)
-  .work_card_des
+  .work-card__des
     margin-top: 20px
   .work
     height: 100%
 
 
 .travel
-  &_wave
+  &__wave
     margin-bottom: 10px
   & .card-img-overlay
     padding-top: 10px
     padding-bottom: 10px
-  & h1
+  &__title
     font-family: OpenSans-Bold, serif
     font-size: 30px
     color: $Black-text
     padding-top: 10px
-  &_map
+  &__map
     position: absolute
     margin-left: -5%
     width: 67vw
-  &_con
+  &-con
     margin-top: 96px
     color: white
     font-size: 16px
     font-family: OpenSans-Regular, serif
-  & h5
+  &-card__title
     font-size: 28px
-  &_con_price p
+  &-card__sum
     font-size: 26px
     font-weight: 900
-  &_con_price del
+  &-card__del
     font-size: 18px
     font-weight: normal
 @media (max-width: 1200px)
-  .travel_wave
+  .travel__wave
     margin-top: 70px
-  .travel_map
+  .travel__map
     left: 20%
 @media (max-width: 1200px) and (min-width: 767px)
-  .travel_con
+  .travel-con
     font-size: 12px
-  .travel_con_price p
+  .travel-card__sum
     font-size: 12px
-  .travel_con_price del
+  .travel-card__del
     font-size: 12px
-  .travel h5
+  .travel-card__title
     font-size: 12px
 @media (max-width: 767px)
   .travel .card-deck
@@ -514,10 +525,10 @@ nav a:hover
   .travel
     .card
       border: none
-  .travel_card .card-img
+  .travel-card .card-img
     height: 300px
 @media (max-width: 990px) and (min-width: 768px)
-  .travel_card_stars img
+  .travel-card__stars img
     width: 100%
 
 .travel-back
@@ -530,22 +541,22 @@ nav a:hover
     margin-top: -700px
 
 .gallery
-  &_wave
+  &__wave
     margin-top: 70px
     margin-bottom: 35px
-  & h1
+  &__title
     font-family: OpenSans-Bold, serif
     font-size: 30px
     color: $Black-text
-  & img
+  &__img
     padding-top: 30px
-  &_img4
+  &__img4
     margin-top: -8.3%
-  &_con
+  &__con
     margin-top: 55px
     margin-bottom: 77px
 @media (max-width: 760px)
-  .gallery_img4
+  .gallery__img4
     margin-top: 0
 
 .linkline
@@ -557,29 +568,29 @@ nav a:hover
     text-align: center
     padding-top: 10px
     padding-bottom: 10px
-    & img
+    &__img
       margin-top: 20px
 
 .clients
   background-image: url("../image/clients/mountins_back.png")
   height: 744px
-  &_wave
+  &__wave
     margin-top: 70px
     margin-bottom: 35px
-  & h1
+  &__title
     font-family: OpenSans-Bold, serif
     font-size: 30px
     color: $Black-text
-  &_con
+  &-con
     margin-top: 60px
-    &_block p
+    &-con__text
       font-size: 18px
-    &_block p:nth-child(1)
+    &__quotes
       font-family: LeagueGothic-Regular, serif
       font-size: 92px
       margin: 0
       height: 80px
-    &_block_img
+    &__img
       margin-top: 25px
       font-size: 16px
       color: $Blue
@@ -589,21 +600,17 @@ nav a:hover
 @media (max-width: 767px)
   .clients .container
     padding: 0
-  .clients_con_block
+  .clients-con__block
     padding: 0 25px 20px 25px
-  .clients p
-    color: black
-    text-shadow: 0.1px 0.1px 0.1px white
-  .clients_con
+  .clients-con
     margin-top: 10px
     background: rgba(255, 255, 255, 0.3)
     backdrop-filter: blur(30px)
     border-radius: 5px
     margin-bottom: 10%
     width: 100%
-  .clients_con_block_img span
+  .clients-con__sign
     font-size: 13px
-    color: black
     text-shadow: 0.1px 0.1px 0.1px white
     font-weight: bold
 
@@ -615,38 +622,38 @@ nav a:hover
   padding-bottom: 180px
   .form-group
     margin-bottom: 0
-  &_form
+  &-form
     width: 515px
     margin: auto
     padding: 43px 32px 50px 32px
     background: rgba(255, 255, 255, 0.2)
     border-radius: 5px
     backdrop-filter: blur(30px)
-    & h1
+    &__title
       font-size: 36px
       font-family: OpenSans-Bold, serif
       letter-spacing: 5px
       color: $Blue
       margin-bottom: 10px
-    & p
+    &__text
       font-family: OpenSans-Bold, serif
       font-size: 16px
       color: #383e4a
       margin-bottom: 37px
-    & input
+    &__input
       padding: 26px 20px 26px 20px
       font-size: 18px
       font-family: Roboto-Light, serif
-  &_button
-    margin-top: 18px
-  &_button button
-    width: 100%
-    background: $Blue
-    height: 65px
-    border: none
-    font-family: OpenSans-Bold, serif
-    &:hover
+    &__button
+      margin-top: 18px
+    &__button button
+      width: 100%
       background: $Blue
+      height: 65px
+      border: none
+      font-family: OpenSans-Bold, serif
+      &:hover
+        background: $Blue
 @media (max-width: 767px)
   .contacts
     padding-bottom: 10px
@@ -655,28 +662,28 @@ nav a:hover
       margin-right: 0
       padding-right: 0
       padding-left: 0
-  .contacts_form
+  .contacts-form
     width: 100%
     padding-left: 2px
     padding-right: 2px
     padding-bottom: 20px
     margin-top: 230px
     margin-bottom: 20px
-    & input
+    &__input
       padding: 10px 5px 10px 5px
       width: 90%
       margin: auto
-  .contacts_button
+  .contacts-form__button
     width: 90%
     margin: 18px auto 50px
 @media (max-width: 767px) and (min-width: 610px)
-  .contacts_form
+  .contacts-form
     margin-left: 10vw
 
 @media (max-width: 480px)
   .contacts
     margin-top: -220px
-    & p
+    &-form__text
       margin-bottom: 10px
 @media (max-width: 320px)
   .contacts
@@ -685,20 +692,17 @@ nav a:hover
 .footer
   background-image: url("../image/footer.png")
   background-size: cover
-  &_con
+  &-con
     padding: 25px 0 15px
-    & p
+    &__text
       font-family: OpenSans-Regular, serif
       font-size: 18px
       color: #6a95a3
-    & h5
+    &__phone
       font-family: Roboto-Black, serif
       font-size: 27px
       color: #7cc0d4
-    &img
+    &__img
       width: 40px
       height: 40px
-      box-shadow: 10px 10px 10px black
-    & img:nth-last-child(1)
-      box-shadow: none
 
