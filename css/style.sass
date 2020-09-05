@@ -36,10 +36,36 @@ $Gray-text: #949494
 $About_back: #f6f4f4
 $Black-text: #2c2e37
 
+html
+  scroll-behavior: smooth
+
 body
   font-size: 12px
   line-height: 1.5
   color: $Gray-text
+
+.up-button
+  position: fixed
+  cursor: pointer
+  z-index: 2
+  padding: 0
+  bottom: 75px
+  right: 20px
+  width: 64px
+  height: 64px
+  font-size: 36px
+  color: $Blue
+  font-weight: bold
+  text-align: center
+  border: 5px solid $Blue
+  border-radius: 50%
+  background-color: transparent
+  display: none
+  &:focus
+    outline: none
+
+.shown
+  display: inline-block
 
 .top-block
   background: url("../image/bg-top-block.jpg") no-repeat

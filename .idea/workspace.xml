@@ -5,17 +5,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="fixed mobile version">
+    <list default="true" id="fc2c6da2-a786-40e2-8fda-82f0fed35004" name="Default Changelist" comment="the scroll button added (new file up-button.js)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,6 +48,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -295,7 +307,18 @@
       <workItem from="1596459262707" duration="4604000" />
       <workItem from="1596735977305" duration="1149000" />
       <workItem from="1596740342549" duration="5532000" />
-      <workItem from="1596806535072" duration="3801000" />
+      <workItem from="1596806535072" duration="3987000" />
+      <workItem from="1596898745614" duration="9000" />
+      <workItem from="1596902366798" duration="4000" />
+      <workItem from="1597261230638" duration="1019000" />
+      <workItem from="1597262961401" duration="525000" />
+      <workItem from="1599310565097" duration="1382000" />
+      <workItem from="1599312375901" duration="1675000" />
+      <workItem from="1599314186058" duration="1732000" />
+      <workItem from="1599316002852" duration="1170000" />
+      <workItem from="1599322508585" duration="293000" />
+      <workItem from="1599323115102" duration="243000" />
+      <workItem from="1599326403324" duration="235000" />
     </task>
     <task id="LOCAL-00001" summary="form for mobile version">
       <created>1591873401058</created>
@@ -304,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591873401058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="the scroll button added (new file up-button.js)">
+      <created>1599317201113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599317201113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +433,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="form for mobile version" />
     <MESSAGE value="fixed mobile version" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed mobile version" />
+    <MESSAGE value="the scroll button added (new file up-button.js)" />
+    <option name="LAST_COMMIT_MESSAGE" value="the scroll button added (new file up-button.js)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="769" y="457" key="#File_Watchers" timestamp="1595792241746">
@@ -421,7 +452,6 @@
     <state x="386" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596875962201">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589401424313" />
     <state x="386" y="208" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1596875962201" />
     <state x="423" y="238" key="#com.intellij.tools.ToolEditorDialog" timestamp="1595793592763">
       <screen x="0" y="23" width="1792" height="1097" />
@@ -438,44 +468,31 @@
     <state x="873" y="219" width="695" height="703" key="EditFileWatcherDialog" timestamp="1595792122066">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="935" y="186" width="731" height="666" key="EditFileWatcherDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589396655673" />
-    <state x="92" y="305" width="731" height="479" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588870267316" />
     <state x="873" y="219" width="695" height="703" key="EditFileWatcherDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1595792122066" />
-    <state x="192" y="400" key="EnvironmentVariablesDialog" timestamp="1589190377516">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="192" y="400" key="EnvironmentVariablesDialog/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190377516" />
     <state x="856" y="193" key="FileChooserDialogImpl" timestamp="1593450145408">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="1203" y="275" key="FileChooserDialogImpl/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589738056535" />
     <state x="856" y="193" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593450145408" />
-    <state x="1203" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590584245441" />
     <state x="159" y="40" key="SettingsEditor" timestamp="1595793829904">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="-1038" y="422" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@-1366.409.1366.728" timestamp="1589191049598" />
-    <state x="461" y="162" key="SettingsEditor/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589396657315" />
     <state x="121" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1591873632999" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588672641997" />
     <state x="159" y="40" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1595793829904" />
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1596366414942">
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2" timestamp="1599317212971">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1596366414942" />
+    <state x="496" y="311" key="Vcs.Push.Dialog.v2/0.23.1792.1097@0.23.1792.1097" timestamp="1599317212971" />
     <state x="684" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595960003645">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="684" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1595960003645" />
-    <state x="50" y="297" key="scopes" timestamp="1589190065344">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="561" y="266" key="run.anything.popup" timestamp="1599315232449">
+      <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="50" y="297" key="scopes/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589190065344" />
+    <state x="561" y="266" key="run.anything.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1599315232449" />
     <state x="454" y="97" width="882" height="1023" key="search.everywhere.popup" timestamp="1596485781423">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="-1020" y="458" width="672" height="678" key="search.everywhere.popup/-1366.409.1366.728/0.0.1920.1040@-1366.409.1366.728" timestamp="1589213705075" />
-    <state x="486" y="70" width="945" height="969" key="search.everywhere.popup/-1366.409.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1589467065948" />
     <state x="454" y="97" width="882" height="1023" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1596485781423" />
   </component>
 </project>

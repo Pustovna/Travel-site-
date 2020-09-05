@@ -30,10 +30,40 @@
   font-family: "LeagueGothic-Regular";
   src: url("../fonts/LeagueGothic-Regular.otf");
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 12px;
   line-height: 1.5;
   color: #949494;
+}
+
+.up-button {
+  position: fixed;
+  cursor: pointer;
+  z-index: 2;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  color: #36aeea;
+  font-weight: bold;
+  text-align: center;
+  border: 5px solid #36aeea;
+  border-radius: 50%;
+  background-color: transparent;
+  display: none;
+}
+.up-button:focus {
+  outline: none;
+}
+
+.shown {
+  display: inline-block;
 }
 
 .top-block {
